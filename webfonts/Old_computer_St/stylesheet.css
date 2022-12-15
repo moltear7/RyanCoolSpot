@@ -1,0 +1,333 @@
+@font-face {
+	font-family: 'Old computer St';
+	src: url('Old computer St.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: Technoma;
+    src: url('Technoma.otf') format('opentype');
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    font: inherit;
+    box-sizing: border-box;
+}
+
+html:focus-within{
+    scroll-behavior: smooth;
+}
+
+html, body{
+    height: 100%;
+}
+
+img,picture,svg{
+    max-width: 100%;
+    
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+
+ header{
+            width: 100%;
+            height: auto;
+            postion: relative;
+            margin: 0;
+            padding-top: 0;
+            padding-bottom: 0;
+            
+        }
+        
+        h1{
+            font-size: 30px;
+            text-align: center;
+            background: #19620E;
+            float: none;
+            text-shadow:
+                    -1px -1px 0 #000,
+                    1px -1px 0 #000,
+                    -1px 1px 0 #000,
+                    1px 1px 0 #000;
+            color: #3E54FF;
+            font-family: 'Old computer St';
+            margin: 0;
+            
+        }
+       h2{
+            color:#DC15E1;  
+            font-size: 30px;
+            text-align: center;
+            float: none;
+            text-shadow: 2px 2px #080808;         
+            font-family: 'Old computer St';
+            margin: 0;
+            font-weight: bolder;
+           padding-top: 5px;
+            padding-bottom:10px;
+           border-bottom: 3px solid #222;
+            
+            
+        }
+
+h3{
+            color:#1A9391;  
+            font-size: 30px;
+            text-align: center;
+            float: none;
+            text-shadow: 2px 2px #080808;         
+            font-family: 'Old computer St';
+            margin: 0;
+            font-weight: bolder;
+            padding-bottom:10px;
+           border-bottom: 3px solid #222;
+            
+            
+        }
+
+
+
+.FlexBox{
+   display: flex;
+    align-items: center;
+}
+p{
+    font-family: Technoma;
+    color: #525252;
+}
+
+.FlexBox .BigTextBox{
+    display: inline-block;
+    margin: 2px;
+    
+}
+
+.FlexBox .BigPhotoBox {
+    display: inline-block;
+    vertical-align: top;
+    padding: 5px;
+    
+}
+
+.FlexBox .BigPhotoBox img{
+    height: 400px;
+    width: 400px;
+}
+
+
+
+
+.Photo img:hover{
+    border: 3px solid #777;
+}
+
+.Photo .Columns{
+    padding-top: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.Photo .Columns .Column1{
+    display: flex;
+    flex-direction: column;
+    width: 32.5%;
+}
+
+.Photo .Columns .Column1 img{
+    width: 100%;
+    height: auto;
+    padding-bottom: 15px;
+    border-radius: 5px;
+}
+
+.Footer-container{
+    padding-top: 0;
+    background: #0E4D11
+}
+
+
+        
+        nav ul{
+            padding: 0;
+            list-style: none; 
+            margin: 0 auto;
+            background: #5EE999;
+            text-align: center;
+          
+
+        }
+        
+        
+        
+        nav li{
+            display: inline-block;
+            line-height: 30px;
+            text-align: center;
+            margin: 0;
+            background: #7DF187;
+            padding: 0;
+            
+           
+        }
+        
+        nav li a{
+            
+            color:#00FFFB;
+            
+        }
+        
+        body{
+            background: #7DF187;
+            text-rendering: optimizeSpeed;
+            line-height: 1.5;
+          
+        }
+        
+        button{
+            background-color:#21AA39;
+            font-size: 20px;
+            text-align: center;
+            width: 190px;
+            font-family:'Old Computer St';
+            
+            transition: all ease-in-out 100ms;
+            
+        }
+        
+        
+        button:hover{
+            background:#005604;
+            color: #FFFFFF;
+        }
+
+        .dropdownbutton{
+            color:#000000; 
+            background-color:#21AA39;
+            font-size: 20px;
+            text-align: center;
+            width: 190px;
+            font-family:'Old Computer St';
+            transition: all ease-in-out 100ms;
+            padding: 0;
+            
+            
+        }
+
+
+        .dropdown{
+            display: inline-block;
+            position: relative;
+        }
+
+.dropdown-content{
+    position: absolute;
+    background: #005604;
+    min-width: 200px;
+    display: none;
+    z-index: 1;
+    
+} 
+.dropdown-content a{
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    font-family: 'Old Computer St';
+}
+
+.dropdown-content a:hover{
+    background-color: blue;
+}
+
+.dropdown:hover .dropdown-content{
+    display: block;
+}
+
+.dropdown:hover .dropdownbutton{
+    background-color: grey;
+}
+
+        
+        .top_banner_section{
+            margin: 0;
+            padding: 0;
+        }
+
+    .Photo{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+        margin: 40px 20px 0 20px;
+        
+    }
+
+.Footer-container .Footer{
+    background: #153F1C;
+}
+.Footer-container .Footer .footer-heading{
+    
+    display:table-row;
+    
+    
+}
+
+.Footer-container .footer-heading a{
+    
+    font-family: Technoma;
+    color: #FFFFFF;
+}
+
+.Footer-container .Footer .footer-2{
+    
+    
+    padding-top: 100px;
+    
+}
+
+.Footer{
+    background:#0E4D11;
+    
+}
+
+.Foot-container h2{
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+        
+
+
+/*helps with reduced animation settings */
+
+@media (prefers-reduced-motion: reduce) {
+    html:focus-within{
+        scroll-behavior: auto;
+    }
+    
+    *,
+    *::before,
+    *::after{
+        animation-duration: 0.01ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration:  0.01ms!important;
+        scroll-behavior: auto !important;
+    }
+}
+
+
+
+@media only screen and (max-width : 769px ){
+    .Photo .Columns{
+    flex-direction: column;
+}
+    
+    .Photo .Columns .Columns1{
+        width: 100%;
+        
+    }
+}
